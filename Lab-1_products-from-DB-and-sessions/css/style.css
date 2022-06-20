@@ -1,0 +1,130 @@
+* {
+  font-family: 'Montserrat', sans-serif;; /* Change your font family */
+
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background: #e3e9f7;
+}
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  /*  #009879; */
+  background-color:#0892D0 ;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  /* border-bottom: 2px solid #009879; */
+  border-bottom: 2px solid #0892D0;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  /* color: #009879; */
+  color: #0892D0;
+}
+
+/* estilos practica 5  */
+
+
+
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] , button{
+  width: 100%;
+  background-color: #0892D0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #046b9b;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.link-inicio-sesion {
+	width: 100%;
+  background-color: #0892D0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+.link-inicio-sesion a{
+  text-decoration: none;
+  color: #ffff;
+  font-size: 15px;
+
+}
+
+button a{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
